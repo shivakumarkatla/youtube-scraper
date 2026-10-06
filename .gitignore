@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and session data (this project never needs them)
+.env
+*.cookies
+cookies.txt
+*.har
+
+# Scraped results (keep the folder itself)
+output/*
+!output/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
